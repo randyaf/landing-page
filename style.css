@@ -13,6 +13,9 @@ body {
     margin: 0 auto;
 }
 
+
+/* NAVBAR */
+
 .navbar {
     background-color: #1f2937;
     height: 60px;
@@ -40,4 +43,45 @@ body {
 .nav-right-links a {
     text-decoration: none;
     color: #fff;
+}
+
+/* HERO SECTION */
+
+.hero-section {
+    background-color: #1f2937;
+    color: #fff;
+}
+
+.hero-section .container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 100px 0;
+}
+
+.hero-section .container .hero-left-section,
+.hero-section .container .hero-right-section {
+    flex: 1;
+}
+
+.hero-section .container .hero-big-title {
+    font-size: 60px;
+    font-weight: bold;
+    line-height: 1.1;
+    margin: 0;
+}
+
+.hero-section .container .signup-button {
+    font-size: larger;
+    font-weight: bold;
+    background-color: #3882f6;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 30px;
+}
+
+.hero-section .container .hero-right-section {
+    border: 1px solid #fff;
+    background-color: grey;
 }
