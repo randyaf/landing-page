@@ -85,3 +85,51 @@ body {
     border: 1px solid #fff;
     background-color: grey;
 }
+
+
+/* SECTION SHOWCASE */
+
+.section-showcase {
+    background-color: #fff;
+}
+
+.section-showcase .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0;
+}
+
+.section-showcase .container .container-cards {
+    display: flex;
+    /* border: 1px solid black; */
+    margin: 20px 70px;
+    gap: 20px;
+
+}
+
+.section-showcase .container .container-cards .card {
+    flex: 1;
+    /* height: auto; */
+    /* width: 200px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    /* border: 1px solid blue; */
+}
+
+.card .card-image {
+    height: 200px;
+    width: 200px;
+    border: 3px solid blue;
+    border-radius: 10px;
+}
+
+.card .card-text {
+    /* border: 1px solid black; */
+    text-align: center;
+    width: 200px;
+}
