@@ -42,7 +42,12 @@ body {
 
 .nav-right-links a {
     text-decoration: none;
+    font-weight: bold;
     color: #fff;
+}
+
+.nav-right-links a:hover {
+    color: #3882f6;
 }
 
 /* HERO SECTION */
@@ -56,6 +61,7 @@ body {
     display: flex;
     justify-content: space-between;
     gap: 20px;
+    height: 500px;
     padding: 100px 0;
 }
 
@@ -82,8 +88,17 @@ body {
 }
 
 .hero-section .container .hero-right-section {
-    border: 1px solid #fff;
-    background-color: grey;
+    width: 100%;
+    /* border: 1px solid #fff; */
+    /* background-color: grey; */
+    display: flex;
+}
+
+.hero-right-section img {
+    flex: 1;
+    max-width: 100%;
+    max-height: auto;
+    object-fit:cover;
 }
 
 
@@ -128,10 +143,19 @@ body {
 }
 
 .card .card-image {
+    display: flex;
     height: 180px;
     width: 180px;
-    border: 3px solid #3882f6;
-    border-radius: 10px;
+    /* border: 3px solid #3882f6; */
+    /* border-radius: 10px; */
+}
+
+.card .card-image img {
+    flex: 1;
+    object-fit: cover;
+    max-width: 100%;
+    max-height: auto;
+    border-radius: 7px;
 }
 
 .card .card-text {
