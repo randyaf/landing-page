@@ -98,13 +98,14 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 30px 0;
+    padding: 30px 0 80px 0;
+    /* border: 1px solid black; */
 }
 
 .section-showcase .container .container-cards {
     display: flex;
-    /* border: 1px solid black; */
     margin: 20px 70px;
+    max-width: 900px;
     gap: 40px;
 
 }
@@ -138,3 +139,33 @@ body {
     text-align: center;
     width: 180px;
 }
+
+
+
+/* SECTION QUOTE */
+
+.section-quote {
+    background-color: #e5e7eb;
+    padding: 80px 0;
+}
+
+.section-quote .container {
+    max-width: 840px;
+    display: flex;
+    flex-direction: column;
+}
+
+.section-quote .container .quote-text {
+    font-size: 36px;
+    font-weight:300;
+    font-style: italic;
+    margin-bottom: 0;
+}
+
+.section-quote .container .author {
+    margin-left: auto;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+
