@@ -60,7 +60,7 @@ body {
 .hero-section .container {
     display: flex;
     justify-content: space-between;
-    gap: 20px;
+    gap: 50px;
     height: 500px;
     padding: 100px 0;
 }
@@ -136,7 +136,7 @@ body {
     /* width: 200px; */
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     gap: 5px;
     /* border: 1px solid blue; */
