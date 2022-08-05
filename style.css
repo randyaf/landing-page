@@ -291,3 +291,24 @@ body {
     margin-right: 5px;
 }
 
+
+/* ANIMATION */
+
+@keyframes flow-card {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.2);
+    }
+}
+
+@keyframes unflow-card {
+    from {
+        transform: scale(1.2);
+    }
+    to {
+        transform: scale(1);
+    }
+    
+}
