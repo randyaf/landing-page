@@ -7,16 +7,16 @@
 // });
 
 
-const cards = document.querySelectorAll(".card");
+// const cards = document.querySelectorAll(".card");
 
-cards.forEach (card => {
-    card.addEventListener("mouseover", event => {
-        card.style.animation = "flow-card 1000ms"
-        console.log("something happening here");
-        console.log(event.target);
-    });
+// cards.forEach (card => {
+//     card.addEventListener("mouseover", event => {
+//         card.style.animation = "flow-card 1000ms"
+//         console.log("something happening here");
+//         console.log(event.target);
+//     });
 
-    card.addEventListener("mouseout", event => {
-        card.style.animation = "unflow-card 1000ms";
-    })
-});
+//     card.addEventListener("mouseout", event => {
+//         card.style.animation = "unflow-card 1000ms";
+//     })
+// });
